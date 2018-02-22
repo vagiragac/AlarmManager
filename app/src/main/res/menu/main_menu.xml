@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Settings"
+        android:id="@+id/menu_sett"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Add Alarm"
+        app:showAsAction="always" />
+
+    <item android:title="Records"
+        android:id="@+id/menu_log"
+        app:showAsAction="never"/>
+
+</menu>
